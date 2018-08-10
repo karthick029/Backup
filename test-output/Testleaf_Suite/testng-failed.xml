@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Testleaf_Suite]" parallel="classes">
+  <test thread-count="2" name="Leadpage(failed)" parallel="classes">
+    <classes>
+      <class name="week5.MergeLeadFrameWork">
+        <methods>
+          <include name="doMerge"/>
+        </methods>
+      </class> <!-- week5.MergeLeadFrameWork -->
+      <class name="week5.DuplicateLeadFramework">
+        <methods>
+          <include name="call"/>
+        </methods>
+      </class> <!-- week5.DuplicateLeadFramework -->
+      <class name="week5.DeleteLeadFrameWork">
+        <methods>
+          <include name="callDelete"/>
+        </methods>
+      </class> <!-- week5.DeleteLeadFrameWork -->
+    </classes>
+  </test> <!-- Leadpage(failed) -->
+</suite> <!-- Failed suite [Testleaf_Suite] -->

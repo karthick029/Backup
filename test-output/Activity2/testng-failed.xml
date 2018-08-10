@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Activity2]">
+  <test thread-count="5" verbose="5" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="testng.DeleteLeadFrameWork">
+        <methods>
+          <include name="close"/>
+          <include name="callDelete"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testng.DeleteLeadFrameWork -->
+      <class name="testng.MergeLeadFrameWork">
+        <methods>
+          <include name="close"/>
+          <include name="doMerge"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testng.MergeLeadFrameWork -->
+      <class name="testng.DuplicateLeadFramework">
+        <methods>
+          <include name="close"/>
+          <include name="duplicateLead"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testng.DuplicateLeadFramework -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Activity2] -->

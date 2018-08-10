@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+  <test thread-count="5" name="activity"  >
+    <classes>
+      <class name="testng.DeleteLeadFrameWork"/>
+      <class name="testng.MergeLeadFrameWork"></class>
+    </classes>
+  </test> <!-- activity -->
+  <test  name="Test" parallel ="classes" >
+    <classes >
+      
+      <class name="testng.CreateLeadFrameWork"/>
+      <class name="testng.DuplicateLeadFramework"/>
+    </classes>
+    </test>
+</suite> <!-- Suite -->

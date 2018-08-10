@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Activity2" verbose= "5">
+  <test  name="Test" parallel ="classes" >
+    <classes >
+      
+      <class name="testng.CreateLeadFrameWork"/>
+      <class name="testng.DuplicateLeadFramework"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Activity2 -->
