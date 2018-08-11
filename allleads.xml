@@ -9,11 +9,11 @@
  
     <classes>
       <class name="testcases.TC_001_CreateLead_TestLeaf"/>
-      <class name="testcases.TC_002_CreateLead_Negativecase"/>
+<!--       <class name="testcases.TC_002_CreateLead_Negativecase"/>
       <class name="testcases.TC_003_DeleteLead"/>    
       <class name="testcases.TC_004_EditLead"/>
       <class name="testcases.TC_005_DuplicateLead"/>
-      <class name ="testcases.TC_006_MergeLead"/>
+      <class name ="testcases.TC_006_MergeLead"/> -->
       
     </classes>
     
